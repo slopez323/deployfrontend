@@ -9,7 +9,7 @@ function App() {
 
   const sendReceiveMessage = async () => {
     const urlEndpoint = process.env.REACT_APP_URL_ENDPOINT;
-    const url = `${urlEndpoint}/post-message`;
+    const url = `${urlEndpoint}post-message`;
     const response = await fetch(url, {
       method: "POST",
       headers: {
