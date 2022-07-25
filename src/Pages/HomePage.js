@@ -6,8 +6,8 @@ const HomePage = ({
 }) => {
   return (
     <div>
-      <p>Client Message: {clientMessage}</p>
-      <p>Server Message: {serverMessage}</p>
+      <p>{clientMessage}</p>
+      <p>{serverMessage}</p>
 
       <div>
         <input
